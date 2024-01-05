@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="logo do site" />
+            <h1>Calculadora de média</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <form action="#" id="form-atividade">
+                    <input id="nome-atividade" type="text" placeholder="Nome da atividade" required/>
+                    <input id="nota-atividade" type="number" placeholder="Nota" min="0" max="10" required>
+                    <button type="submit">Adicionar +</button>
+                </form>
+            </section>
+            <section>
+                <table id="tabela-avaliacoes">
+                    <thead>
+                        <tr>
+                            <th>Nome da atividade</th>
+                            <th>Nota</th>
+                            <th>Aprovado?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="main.js" ></script>
+</body>
+</html>

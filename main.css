@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(214, 214, 214);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.container {
+    width: 900px;
+    margin: 0px auto;
+}
+header .container img {
+    width: 45px;
+}
+header {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+main .container form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+main .container form input{
+    width: 40%;
+    padding: 1em 2em;
+    margin-right: 0.5em;
+    background-color: white;
+}
+main .container form button{
+    width: 30%;
+    background-color: green;
+    color: white;
+    border: none;
+}
+main .container form button:hover {
+    cursor: grab;
+}
+
+main .container form button:active{
+    background-color: rgb(0, 100, 0);
+}
+
+#tabela-avaliacoes {
+    width: 100%;
+}
+#tabela-avaliacoes tr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+#tabela-avaliacoes thead tr th {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+#tabela-avaliacoes tr th {
+    margin-bottom: 1em;
+}
+
+#tabela-avaliacoes tr td, #tabela-avaliacoes tr th {
+    width: 30%;
+    text-align: center;
+}
+
+#tabela-avaliacoes tr td img {
+    width: 40px;
+}
+
+tfoot tr{
+    margin-top: 2em;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(165, 165, 165);
+    border-top: 2px solid rgb(165, 165, 165);
+    padding: 8px;
+}
+
+.resultado {
+    color: white;
+    padding: 0.25em;
+    border-radius: 5px;
+}
+
+.resultado-ap {
+    background-color: green;
+}
+
+.resultado-rep {
+    background-color: red;
+}
+
